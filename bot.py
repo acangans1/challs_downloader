@@ -24,7 +24,7 @@ from yt_dlp import YoutubeDL
 # KONFIGURASI
 # ==================================================
 
-TOKEN = "ISI_TOKEN_BOT_KAMU"
+TOKEN = os.getenv("TOKEN")
 
 # Masukkan Telegram ID kamu nanti
 ADMIN_ID = 123456789
